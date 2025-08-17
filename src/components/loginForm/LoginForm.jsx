@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import { globalContext } from "../Context/ContextProvider";
+import { globalContext } from "../context/ContextProvider";
 import "./LoginForm.css";
 import { Mail, User, ArrowRight, FolderMinus } from "lucide-react";
 

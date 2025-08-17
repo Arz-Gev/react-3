@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Sparkles } from "lucide-react";
-import { globalContext } from "../Context/ContextProvider";
+import { globalContext } from "../context/ContextProvider";
 import { LogOut, Menu } from "lucide-react";
 
 import "./Header.css";

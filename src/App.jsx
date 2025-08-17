@@ -1,8 +1,8 @@
-import Context from "./components/Context/ContextProvider";
-import Header from "./components/Header/Header";
-import Welcome from "./components/Welcome/Welcome";
-import LoginForm from "./components/LoginForm/LoginForm";
-import Dashboard from "./components/Dashboard/Dashboard";
+import Context from "./components/context/ContextProvider";
+import Header from "./components/header/Header";
+import Welcome from "./components/welcome/Welcome";
+import LoginForm from "./components/loginForm/LoginForm";
+import Dashboard from "./components/dashboard/Dashboard";
 import "./App.css";
 
 function App() {

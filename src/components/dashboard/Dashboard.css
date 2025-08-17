@@ -48,10 +48,10 @@
   align-items: center;
   background: linear-gradient(
     130deg,
-    rgba(136, 0, 214, 0.534),
-    rgba(196, 0, 130, 0.5) 100%
+    rgba(94, 0, 148, 0.8),
+    rgb(226, 2, 152) 100%
   );
-  background-color: oklch(65.104% 0.23086 354.374);
+  background-color: oklch(43.375% 0.17373 359.337);
   border-radius: 0.7rem;
   color: white;
   display: flex;

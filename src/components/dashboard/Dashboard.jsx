@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { globalContext } from "../Context/ContextProvider";
+import { globalContext } from "../context/ContextProvider";
 import DashboardCard from "./DashboardCard";
 import "./Dashboard.css";
 import {
