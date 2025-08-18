@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { globalContext } from "../context/ContextProvider";
 import DashboardCard from "./DashboardCard";
-import "./Dashboard.css";
 import {
   CircleCheckBig,
   Clock,
@@ -11,6 +10,8 @@ import {
   Activity,
   TrendingUp,
 } from "lucide-react";
+
+import "./Dashboard.css";
 
 export default function Dashboard() {
   const { sharedData } = useContext(globalContext);

@@ -1,7 +1,8 @@
 import React, { useContext, useState, useEffect } from "react";
 import { globalContext } from "../context/ContextProvider";
-import "./LoginForm.css";
 import { Mail, User, ArrowRight, FolderMinus } from "lucide-react";
+
+import "./LoginForm.css";
 
 export default function LoginForm() {
   const { sharedData, setUserData } = useContext(globalContext);
