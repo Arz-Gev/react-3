@@ -1,0 +1,71 @@
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 2px 4px 13px rgba(0, 0, 0, 0.137);
+  display: flex;
+  flex-direction: column;
+  height: 11.25rem;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1.5rem 1.5rem;
+}
+
+.top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.705);
+  font-weight: 500;
+}
+
+.iconBig {
+  align-items: center;
+  background: linear-gradient(
+    130deg,
+    rgba(255, 255, 255, 0.534),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.blue {
+  background-color: oklch(54.6% 0.245 262.881);
+}
+
+.orange {
+  background-color: oklch(70.5% 0.213 47.604);
+}
+
+.green {
+  background-color: oklch(72.3% 0.219 149.579);
+}
+
+.name {
+  color: rgba(0, 0, 0, 0.842);
+  font-size: 1.25rem;
+  margin-bottom: 0.2rem;
+}
+
+.status {
+  align-items: center;
+  display: flex;
+}
+
+.status-text {
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 0.9rem;
+}

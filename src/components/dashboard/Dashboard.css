@@ -1,0 +1,135 @@
+.dashBoard-contaier {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  width: min(1152px, 100%);
+}
+
+.cards-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-body {
+  color: oklch(72.3% 0.219 149.579);
+  height: 0.75rem;
+  margin-right: 0.25rem;
+  width: 0.75rem;
+}
+
+.acitvity-container {
+  align-items: start;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 2px 4px 13px rgba(0, 0, 0, 0.137);
+  display: flex;
+  flex-direction: column;
+  height: 20.375rem;
+  padding: 1.5rem 1.5rem;
+  width: 100%;
+}
+
+.acitvity-top {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  margin-bottom: 0.5rem;
+}
+
+.activity-icon {
+  align-items: center;
+  background: linear-gradient(
+    130deg,
+    rgba(94, 0, 148, 0.8),
+    rgb(226, 2, 152) 100%
+  );
+  background-color: oklch(43.375% 0.17373 359.337);
+  border-radius: 0.7rem;
+  color: white;
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.705);
+  font-size: 0.9rem;
+  margin-bottom: auto;
+}
+
+.status-log {
+  align-items: center;
+  border-radius: 0.75rem;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+
+.green-log {
+  background-color: rgba(0, 255, 0, 0.05);
+  border: solid 1px rgba(0, 255, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.blue-log {
+  background-color: rgba(0, 132, 255, 0.05);
+  border: solid 1px rgba(0, 132, 255, 0.1);
+}
+
+.point {
+  border-radius: 50%;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.green-point {
+  background-color: rgba(0, 153, 0, 0.7);
+}
+
+.blue-point {
+  background-color: rgba(26, 103, 155, 0.7);
+}
+
+.log-icon-green {
+  color: rgba(0, 153, 0, 0.7);
+  height: 1rem;
+  margin-left: auto;
+  width: 1rem;
+}
+
+.log-icon-blue {
+  color: rgba(26, 103, 155, 0.7);
+  height: 1rem;
+  margin-left: auto;
+  width: 1rem;
+}
+
+.log-info {
+  align-items: start;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.info-small {
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.icon-body-black {
+  color: rgba(0, 0, 0, 0.7);
+}
